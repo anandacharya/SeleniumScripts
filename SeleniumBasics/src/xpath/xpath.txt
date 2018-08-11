@@ -1,0 +1,28 @@
+<html>
+	<div class='A'>
+		<label>Name:</label>
+		<input id="ABC" name="ABC1" class="ABC2"></input>
+		<label>Password:</label>
+		<input id="ABC3" name="ABC4" class="ABC5"></input>
+		<label>Password1:</label>
+		<input id="ABC6" name="ABC7" class="ABC8"></input>
+	</div>
+</html>
+
+Relative xpath: //*[@class='featured-box']//*[text()='Testing']
+
+/html/div/input - / denotes absolute path
+//input - // denotes relative path
+//input[@id='ABC'] - identification of input through id attribute
+//input[@name='ABC'] - identification of input through name attribute
+//label[text()='Name:'] - identification of label through text
+//label[contains(text(),'Nam')] - contains with text
+//input[contains(@id,'AB')] - contains with attritube
+//label[contains(text(),'Nam')]/.. - Move to imediate parent
+//label[contains(text(),'Nam')]/ancestor::div[@class='A'] - Move to parent with ancestor
+//div[@class='A']/input - navigate downwards from parent '/' searches in immediate child and '//' searches in all the children
+//label[text()='Name:']/following-sibling::input[@id='ABC'] - move to below sibling the same parent
+//input[@id='ABC']/prece0ding-sibling::label[text()='Name:'] - move to previous sibling the same parent
+//input[@id='ABC' AND @name='ABC1'] - using 2 attributes together
+//input[@id='ABC' OR @name='ABC1'] - using 2 attributes together
+(//input)[1] - using index in xpath
