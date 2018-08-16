@@ -3,5 +3,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="lib" path="C:/Users/anand acharya/Desktop/Selenium/Eclipse Setup 64 Bit/selenium-server-standalone-2.53.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/anand acharya/Desktop/Selenium/log4j.jar/log4j.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
