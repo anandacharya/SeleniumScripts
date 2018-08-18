@@ -30,4 +30,23 @@ public class ScreenshotUtility {
 			System.out.println("Exception while taking screenshot "+e.getMessage());
 		}
 	}
+	
+	public static String captureScreenshotsRunTime(WebDriver driver){
+		
+			//TakesScreenshot is a predefined interface in Seelnium Webdriver. 
+			//we cannot create object of an interface. So typecast the driver to takescreeshot
+			TakesScreenshot ts = (TakesScreenshot)driver;	
+			File src = ts.getScreenshotAs(OutputType.FILE);
+			String path = System.getProperty("user.dir")+"/screenshots/"+System.currentTimeMillis()+".jpg";
+			File destination = new File(path);
+			
+		try {
+			FileUtils.copyFile(src, destination);
+			System.out.println("Screenshot taken");
+		} catch (Exception e) {
+			System.out.println("Exception while taking screenshot "+e.getMessage());
+		}
+		
+		return path;
+	}
 }

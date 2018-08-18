@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Aug 16 17:17:17 AEST 2018</td>
+<td>Started on:</td><td>Sat Aug 18 17:13:29 AEST 2018</td>
 </tr>
-<tr><td>Total time:</td><td>40 seconds (40941 ms)</td>
+<tr><td>Total time:</td><td>41 seconds (41091 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,28 +75,13 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='captureScreenshot.FacebookFailureSnapshot.captureFailureScreenshot()'><b>captureFailureScreenshot</b><br>Test class: captureScreenshot.FacebookFailureSnapshot</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;emailiswrong&quot;}
-Command duration or timeout: 60 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
-System info: host: &apos;DESKTOP-6QB07EQ&apos;, ip: &apos;192.168.93.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 1d63515c-9fa7-458d-a3a4-f6427f795db8
-*** Element info: {Using=id, value=emailiswrong}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
-	at org.openqa.selenium.By$ById.findElement(By.java:218)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at captureScreenshot.FacebookFailureSnapshot.captureFailureScreenshot(FacebookFailureSnapshot.java:36)
+<td title='extentReport.ExtentReportDemo.loginTest()'><b>loginTest</b><br>Test class: extentReport.ExtentReportDemo</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at extentReport.ExtentReportDemo.loginTest(ExtentReportDemo.java:72)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -121,38 +106,13 @@ Session ID: 1d63515c-9fa7-458d-a3a4-f6427f795db8
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;emailiswrong&quot;}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
-System info: host: &apos;DESKTOP-6QB07EQ&apos;, ip: &apos;192.168.93.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
-Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ANANDA~1/AppData/Local/Temp/anonymous2138754824637348536webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///C:/Users/ANANDA~1/AppData/Local/Temp/anonymous2138754824637348536webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/ANANDA~1/AppData/Local/Temp/anonymous2138754824637348536webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/ANANDA~1/AppData/Local/Temp/anonymous2138754824637348536webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/ANANDA~1/AppData/Local/Temp/anonymous2138754824637348536webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
-</pre></div><a href='#' onClick='toggleBox("stack-trace656479172", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace656479172'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;emailiswrong&quot;}
-Command duration or timeout: 60 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
-System info: host: &apos;DESKTOP-6QB07EQ&apos;, ip: &apos;192.168.93.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 1d63515c-9fa7-458d-a3a4-f6427f795db8
-*** Element info: {Using=id, value=emailiswrong}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
-	at org.openqa.selenium.By$ById.findElement(By.java:218)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at captureScreenshot.FacebookFailureSnapshot.captureFailureScreenshot(FacebookFailureSnapshot.java:36)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1364497552", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1364497552'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at extentReport.ExtentReportDemo.loginTest(ExtentReportDemo.java:72)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -177,19 +137,9 @@ Session ID: 1d63515c-9fa7-458d-a3a4-f6427f795db8
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;emailiswrong&quot;}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
-System info: host: &apos;DESKTOP-6QB07EQ&apos;, ip: &apos;192.168.93.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
-Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ANANDA~1/AppData/Local/Temp/anonymous2138754824637348536webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///C:/Users/ANANDA~1/AppData/Local/Temp/anonymous2138754824637348536webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/ANANDA~1/AppData/Local/Temp/anonymous2138754824637348536webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/ANANDA~1/AppData/Local/Temp/anonymous2138754824637348536webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/ANANDA~1/AppData/Local/Temp/anonymous2138754824637348536webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
 </pre></div></td>
-<td>39</td>
-<td>captureScreenshot.FacebookFailureSnapshot@6a2bcfcb</td></tr>
+<td>30</td>
+<td>extentReport.ExtentReportDemo@548b7f67</td></tr>
 </table><p>
 </body>
 </html>

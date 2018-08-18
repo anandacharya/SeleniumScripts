@@ -2,46 +2,27 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="40941" started-at="2018-08-16T07:17:17Z" finished-at="2018-08-16T07:17:58Z">
+  <suite name="Default suite" duration-ms="41091" started-at="2018-08-18T07:13:29Z" finished-at="2018-08-18T07:14:10Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="40941" started-at="2018-08-16T07:17:17Z" finished-at="2018-08-16T07:17:58Z">
-      <class name="captureScreenshot.FacebookFailureSnapshot">
-        <test-method status="FAIL" signature="captureFailureScreenshot()[pri:0, instance:captureScreenshot.FacebookFailureSnapshot@6a2bcfcb]" name="captureFailureScreenshot" duration-ms="39025" started-at="2018-08-16T17:17:17Z" finished-at="2018-08-16T17:17:56Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+    <test name="Default test" duration-ms="41091" started-at="2018-08-18T07:13:29Z" finished-at="2018-08-18T07:14:10Z">
+      <class name="extentReport.ExtentReportDemo">
+        <test-method status="PASS" signature="setup()[pri:0, instance:extentReport.ExtentReportDemo@548b7f67]" name="setup" is-config="true" duration-ms="391" started-at="2018-08-18T17:13:29Z" finished-at="2018-08-18T17:13:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="loginTest()[pri:0, instance:extentReport.ExtentReportDemo@548b7f67]" name="loginTest" duration-ms="30113" started-at="2018-08-18T17:13:29Z" finished-at="2018-08-18T17:13:59Z">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Unable to locate element: {"method":"id","selector":"emailiswrong"}
-Command duration or timeout: 60 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: 'DESKTOP-6QB07EQ', ip: '192.168.93.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 1d63515c-9fa7-458d-a3a4-f6427f795db8
-*** Element info: {Using=id, value=emailiswrong}]]>
+              <![CDATA[expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"emailiswrong"}
-Command duration or timeout: 60 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: 'DESKTOP-6QB07EQ', ip: '192.168.93.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 1d63515c-9fa7-458d-a3a4-f6427f795db8
-*** Element info: {Using=id, value=emailiswrong}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
-	at org.openqa.selenium.By$ById.findElement(By.java:218)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at captureScreenshot.FacebookFailureSnapshot.captureFailureScreenshot(FacebookFailureSnapshot.java:36)
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at extentReport.ExtentReportDemo.loginTest(ExtentReportDemo.java:72)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -66,34 +47,24 @@ Session ID: 1d63515c-9fa7-458d-a3a4-f6427f795db8
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"emailiswrong"}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: 'DESKTOP-6QB07EQ', ip: '192.168.93.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
-Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/ANANDA~1/AppData/Local/Temp/anonymous2138754824637348536webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
-	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/ANANDA~1/AppData/Local/Temp/anonymous2138754824637348536webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/ANANDA~1/AppData/Local/Temp/anonymous2138754824637348536webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/ANANDA~1/AppData/Local/Temp/anonymous2138754824637348536webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
-	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/ANANDA~1/AppData/Local/Temp/anonymous2138754824637348536webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- captureFailureScreenshot -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:captureScreenshot.FacebookFailureSnapshot@6a2bcfcb]" name="tearDown" is-config="true" duration-ms="1816" started-at="2018-08-16T17:17:56Z" finished-at="2018-08-16T17:17:58Z">
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:extentReport.ExtentReportDemo@548b7f67]" name="tearDown" is-config="true" duration-ms="10450" started-at="2018-08-18T17:13:59Z" finished-at="2018-08-18T17:14:10Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=captureFailureScreenshot status=FAILURE method=FacebookFailureSnapshot.captureFailureScreenshot()[pri:0, instance:captureScreenshot.FacebookFailureSnapshot@6a2bcfcb] output={null}]]]>
+                <![CDATA[[TestResult name=loginTest status=FAILURE method=ExtentReportDemo.loginTest()[pri:0, instance:extentReport.ExtentReportDemo@548b7f67] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- captureScreenshot.FacebookFailureSnapshot -->
+      </class> <!-- extentReport.ExtentReportDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
