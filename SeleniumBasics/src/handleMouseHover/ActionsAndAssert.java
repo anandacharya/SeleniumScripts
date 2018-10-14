@@ -1,7 +1,7 @@
 /**
  * 
  */
-package action_assert;
+package handleMouseHover;
 
 import java.util.concurrent.TimeUnit;
 
@@ -21,7 +21,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
  * @author anand acharya
  * Program to navigate through a website using actions and assert statments
  */
-public class Navigate {
+public class ActionsAndAssert {
 
 	/**
 	 * @param args
