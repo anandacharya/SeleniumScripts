@@ -29,7 +29,7 @@ public class FileUploadPopUpHandle {
 		Thread.sleep(10000);
 		
 		//upload file from local machine using the browse option
-		driver.findElement(By.id("pick-files")).sendKeys("C:/Users/anand acharya/Desktop/ISTQB.JPG");
+		driver.findElement(By.id("pick-files")).sendKeys("/C:/Users/anand acharya/Desktop/ISTQB.JPG");
 
 	}
 
